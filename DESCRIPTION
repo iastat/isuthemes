@@ -1,0 +1,19 @@
+Package: csafethemes
+Type: Package
+Title: ggplot2 Themes and Scales for CSAFE
+Version: 0.1.0
+Author: person("Sam", "Tyner", email = "sctyner@iastate.edu",
+                  role = c("aut", "cre"))
+Description: Themes, color schemes, and other stylistic elements for creating CSAFE-themed
+              ggplot2 plots. (With apologies to Ricardo Bion and the ggthemes package.)
+License: GPL
+Suggests:
+    dplyr,
+    ggplot2,
+    magrittr,
+    scales,
+    tidyr,
+    extrafont,
+    extrafontdb
+LazyData: true
+RoxygenNote: 6.0.1
