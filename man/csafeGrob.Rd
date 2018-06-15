@@ -4,11 +4,16 @@
 \alias{csafeGrob}
 \title{CSAFE geom}
 \usage{
-csafeGrob(x, y, size, logo = system.file("extdata", "csafeprint.png", package
-  = "csafethemes"))
+csafeGrob(x, y, size)
 }
 \description{
 CSAFE geom
+}
+\examples{
+ggplot(data = mtcars) +
+    geom_corgi(aes(x = cty, y = hwy))
+
+
 }
 \author{
 Sam Tyner
