@@ -3,5 +3,7 @@
 export(geom_corgi)
 export(geom_csafe)
 export(scale_color_csafe)
+export(scale_color_malisha)
 export(scale_fill_csafe)
+export(scale_fill_malisha)
 export(theme_csafe)

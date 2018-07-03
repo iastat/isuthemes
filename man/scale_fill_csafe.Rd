@@ -2,7 +2,7 @@
 % Please edit documentation in R/scale-fill.R
 \name{scale_fill_csafe}
 \alias{scale_fill_csafe}
-\title{CSAFE scale fill for ggplot2}
+\title{csafe scale fill}
 \usage{
 scale_fill_csafe(theme = "primary", csafe_key = list(primary = c("#40B4E5",
   "#003A70", "#77BC1F", "#CF0A2C", "#8A8A8D"), secondary = c("#9F1B96",

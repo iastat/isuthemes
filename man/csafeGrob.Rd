@@ -11,7 +11,7 @@ CSAFE geom
 }
 \examples{
 ggplot(data = mtcars) +
-    geom_corgi(aes(x = cty, y = hwy))
+    geom_corgi(aes(x = drat, y = qsec))
 
 
 }

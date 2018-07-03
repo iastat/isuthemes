@@ -17,3 +17,20 @@ scale_color_csafe <- function(theme="primary", csafe_key = list(
   scale_color_manual(values=csafe_key[[theme]])
 
 }
+
+
+#' csafe scale color
+#'
+#' @export
+#' @name scale_color_malisha
+#' @author Sam Tyner
+#' @title Malisha's scale color for ggplot2
+#' @examples
+#' scale_color_malisha()
+
+
+scale_color_malisha <- function(...) {
+
+  scale_color_manual(values=c("Hotpink", "yellow", "blue",
+                             "purple", "green"), ...)
+}

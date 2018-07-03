@@ -1,9 +1,8 @@
 #' csafe scale fill
 #'
-#' @export
-#' @name scale_fill_csafe
+#' @export scale_fill_csafe
+#' @export scale_fill_malisha
 #' @author Sam Tyner
-#' @title CSAFE scale fill for ggplot2
 #' @examples
 #' scale_fill_csafe(theme="primary")
 
@@ -15,5 +14,16 @@ scale_fill_csafe <- function(theme="primary", csafe_key = list(
 )) {
 
   scale_fill_manual(values=csafe_key[[theme]])
+
+}
+
+#' malisha scale fill
+
+#' scale_fill_malisha()
+
+scale_fill_malisha <- function(...) {
+
+  scale_fill_manual(values=c("Hotpink", "yellow", "blue",
+                            "purple", "green"), ...)
 
 }
