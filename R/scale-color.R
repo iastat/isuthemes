@@ -5,7 +5,9 @@
 #' @author Sam Tyner
 #' @title  ISU scale color for ggplot2
 #' @examples
-#' scale_color_ISU(theme="primary")
+#' ggplot(data = mtcars) +
+#'     geom_point(aes(x = drat, y = qsec, color = as.factor(cyl))) + 
+#'     scale_color_isu()
 
 
 scale_color_isu <- function(theme="primary", isu_key = list(

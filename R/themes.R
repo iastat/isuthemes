@@ -5,12 +5,14 @@
 #' @author Sam Tyner
 #' @title ISU themes for ggplot2
 #' @examples
-#' theme_isu(theme="primary")
+#' ggplot(data = mtcars) +
+#'     geom_point(aes(x = drat, y = qsec)) + 
+#'     theme_isu(theme="primary")
 
 theme_isu <- function(theme="primary", isu_key = list(
   primary = list(
      family_title="Univers Bold",
-     family_text = "Universe Light",
+     family_text = "Univers Light",
      colour_title = "#524727",
      colour_text = "#9B945F"),
   secondary = list(

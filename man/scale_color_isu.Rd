@@ -13,7 +13,9 @@ scale_color_isu(theme = "primary", isu_key = list(primary = c("#C8102E",
 isu scale color
 }
 \examples{
-scale_color_ISU(theme="primary")
+ggplot(data = mtcars) +
+    geom_point(aes(x = drat, y = qsec, color = as.factor(cyl))) + 
+    scale_color_isu()
 }
 \author{
 Sam Tyner

@@ -5,7 +5,7 @@
 \title{ISU themes for ggplot2}
 \usage{
 theme_isu(theme = "primary", isu_key = list(primary = list(family_title =
-  "Univers Bold", family_text = "Universe Light", colour_title = "#524727",
+  "Univers Bold", family_text = "Univers Light", colour_title = "#524727",
   colour_text = "#9B945F"), secondary = list(family_title = "Univers Bold",
   family_text = "Univers Light", colour_title = "#7C2529", colour_text =
   "#6E6259")))
@@ -14,7 +14,9 @@ theme_isu(theme = "primary", isu_key = list(primary = list(family_title =
 isu theme
 }
 \examples{
-theme_isu(theme="primary")
+ggplot(data = mtcars) +
+    geom_point(aes(x = drat, y = qsec)) + 
+    theme_isu(theme="primary")
 }
 \author{
 Sam Tyner
