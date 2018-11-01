@@ -1,10 +1,10 @@
-Package: csafethemes
+Package: isuthemes
 Type: Package
-Title: ggplot2 Themes and Scales for CSAFE
+Title: ggplot2 Themes and Scales for ISU
 Version: 0.1.0
 Author: person("Sam", "Tyner", email = "sctyner@iastate.edu",
                   role = c("aut", "cre"))
-Description: Themes, color schemes, and other stylistic elements for creating CSAFE-themed
+Description: Themes, color schemes, and other stylistic elements for creating ISU-themed
               ggplot2 plots. (With apologies to Ricardo Bion and the ggthemes package.)
 License: GPL
 Suggests:

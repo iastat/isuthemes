@@ -1,36 +1,23 @@
-#' csafe scale color
+#' isu scale color
 #'
 #' @export
-#' @name scale_color_csafe
+#' @name scale_color_isu
 #' @author Sam Tyner
-#' @title CSAFE scale color for ggplot2
+#' @title  ISU scale color for ggplot2
 #' @examples
-#' scale_color_csafe(theme="primary")
+#' scale_color_ISU(theme="primary")
 
 
-scale_color_csafe <- function(theme="primary", csafe_key = list(
-  primary = c("#40B4E5", "#003A70", "#77BC1F", "#CF0A2C", "#8A8A8D"),
-  secondary = c("#9F1B96", "#EA1D76", "#AC162C", "#00833E", "#E11383", "#E4E833",
-    "#F5BD47", "#555759", "#2E5597", "#6BA2B9", "#FA8D29", "#005487")
+scale_color_isu <- function(theme="primary", isu_key = list(
+  primary = c("#C8102E", "#F1BE48", "#524727", "#9B945F", "#CAC7A7"),
+  secondary = c("#3E4827", "#76881D", "#A2A569", 
+                "#003D4C", "#006BA6", "#7A99AC",
+                "#7C2529",  "#9A3324", "#BE531C", 
+                "#8B5B29", "#B9975B", "#EED484",
+                "#6E6259", "#707372", "#ACA39A")
+  
 )) {
 
-  scale_color_manual(values=csafe_key[[theme]])
+  scale_color_manual(values=isu_key[[theme]])
 
-}
-
-
-#' csafe scale color
-#'
-#' @export
-#' @name scale_color_malisha
-#' @author Sam Tyner
-#' @title Malisha's scale color for ggplot2
-#' @examples
-#' scale_color_malisha()
-
-
-scale_color_malisha <- function(...) {
-
-  scale_color_manual(values=c("Hotpink", "yellow", "blue",
-                             "purple", "green"), ...)
 }
