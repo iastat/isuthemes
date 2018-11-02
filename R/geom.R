@@ -9,10 +9,12 @@
 #'
 #'
 isuGrob <- function(x, y, size) {
+  
+  img <- 
 
   grid::rasterGrob(x             = x,
                    y             = y,
-                   image         = cyclones,
+                   image         = cycloneimg,
                    default.units = "native",
                    height        = size,
                    width         = size*0.5)
