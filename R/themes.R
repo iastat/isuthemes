@@ -11,13 +11,13 @@
 
 theme_isu <- function(theme="primary", isu_key = list(
   primary = list(
-     family_title="Univers Bold",
-     family_text = "Univers Light",
+     family_title="Univers",
+     family_text = "Univers-Light-Normal",
      colour_title = "#524727",
      colour_text = "#9B945F"),
   secondary = list(
-    family_title="Univers Bold",
-    family_text = "Univers Light",
+    family_title="Univers",
+    family_text = "Univers-Light-Normal",
     colour_title = "#7C2529",
     colour_text = "#6E6259"
   )
