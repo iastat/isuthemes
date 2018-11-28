@@ -23,11 +23,10 @@ theme_isu <- function(theme="primary", isu_key = list(
   )
 )) {
 
-  theme_classic() +
-    theme(text=element_text(size=18, family=isu_key[[theme]]$family_text)) +
-    theme(legend.title=element_blank()) +
-    theme(plot.title = element_text(size = 25, colour = isu_key[[theme]]$colour_title, family=isu_key[[theme]]$family_title)) +
-    theme(plot.subtitle = element_text(size = 15, colour = isu_key[[theme]]$colour_title, family=isu_key[[theme]]$family_title)) +
+  theme_bw() +
+    theme(text=element_text(size=14, family=isu_key[[theme]]$family_text)) +
+    theme(plot.title = element_text(size = 16, colour = isu_key[[theme]]$colour_title, family=isu_key[[theme]]$family_title)) +
+    theme(plot.subtitle = element_text(size = 12, colour = isu_key[[theme]]$colour_title, family=isu_key[[theme]]$family_title)) +
     theme(axis.text.x=element_text(color=isu_key[[theme]]$colour_text)) +
     theme(axis.text.y=element_text(color=isu_key[[theme]]$colour_text)) +
     theme(axis.title.x=element_text(color=isu_key[[theme]]$colour_text, vjust=0)) +

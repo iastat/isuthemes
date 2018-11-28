@@ -3,7 +3,9 @@
 #' @export scale_fill_isu
 #' @author Sam Tyner
 #' @examples
-#' scale_fill_isu(theme="primary")
+#' ggplot(data = mtcars) + 
+#'     geom_bin2d(aes(x = disp, y = hp, fill = ..count..)) + 
+#'     scale_fill_isu(theme="primary")
 
 
 scale_fill_isu <- function(theme="primary", isu_key = list(
