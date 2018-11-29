@@ -13,7 +13,9 @@ scale_fill_isu(theme = "primary", isu_key = list(primary = c("#C8102E",
 isu scale fill
 }
 \examples{
-scale_fill_isu(theme="primary")
+ggplot(data = mtcars) + 
+    geom_bin2d(aes(x = disp, y = hp, fill = ..count..)) + 
+    scale_fill_isu(theme="primary")
 }
 \author{
 Sam Tyner
